@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/expenseTracker/static/css/main.a529b589.css",
-    "main.js": "/expenseTracker/static/js/main.03a52830.js",
+    "main.css": "/expenseTracker/static/css/main.37b0beb3.css",
+    "main.js": "/expenseTracker/static/js/main.2003fdf5.js",
     "static/js/787.71d44114.chunk.js": "/expenseTracker/static/js/787.71d44114.chunk.js",
     "static/media/success.png": "/expenseTracker/static/media/success.94b293c90db9eec8ca8d.png",
     "static/media/empty.png": "/expenseTracker/static/media/empty.f575b5cbc3511ebaecd2.png",
@@ -16,12 +16,12 @@
     "static/media/travel-luggage.png": "/expenseTracker/static/media/travel-luggage.dce01b50c0d923871a28.png",
     "static/media/user.png": "/expenseTracker/static/media/user.961568814dceb733c85a.png",
     "index.html": "/expenseTracker/index.html",
-    "main.a529b589.css.map": "/expenseTracker/static/css/main.a529b589.css.map",
-    "main.03a52830.js.map": "/expenseTracker/static/js/main.03a52830.js.map",
+    "main.37b0beb3.css.map": "/expenseTracker/static/css/main.37b0beb3.css.map",
+    "main.2003fdf5.js.map": "/expenseTracker/static/js/main.2003fdf5.js.map",
     "787.71d44114.chunk.js.map": "/expenseTracker/static/js/787.71d44114.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a529b589.css",
-    "static/js/main.03a52830.js"
+    "static/css/main.37b0beb3.css",
+    "static/js/main.2003fdf5.js"
   ]
 }
