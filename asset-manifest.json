@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/expenseTracker/static/css/main.a529b589.css",
+    "main.js": "/expenseTracker/static/js/main.03a52830.js",
+    "static/js/787.71d44114.chunk.js": "/expenseTracker/static/js/787.71d44114.chunk.js",
+    "static/media/success.png": "/expenseTracker/static/media/success.94b293c90db9eec8ca8d.png",
+    "static/media/empty.png": "/expenseTracker/static/media/empty.f575b5cbc3511ebaecd2.png",
+    "static/media/ExpenseTracker.png": "/expenseTracker/static/media/ExpenseTracker.092315e5d3902d6c2aae.png",
+    "static/media/home.png": "/expenseTracker/static/media/home.e0fe0af761b15e94f199.png",
+    "static/media/confetti.png": "/expenseTracker/static/media/confetti.524f764d83203bd5aa5c.png",
+    "static/media/burger.png": "/expenseTracker/static/media/burger.10642008973f48beb518.png",
+    "static/media/medical-report.png": "/expenseTracker/static/media/medical-report.29f312f7dfa2b4a2fa59.png",
+    "static/media/return-on-investment.png": "/expenseTracker/static/media/return-on-investment.7cea6c82fb1a2ee16091.png",
+    "static/media/piggy-bank.png": "/expenseTracker/static/media/piggy-bank.dfc5fc9a93c99e5bf2f4.png",
+    "static/media/bill.png": "/expenseTracker/static/media/bill.76f7163f32bd29fc9ad3.png",
+    "static/media/travel-luggage.png": "/expenseTracker/static/media/travel-luggage.dce01b50c0d923871a28.png",
+    "static/media/user.png": "/expenseTracker/static/media/user.961568814dceb733c85a.png",
+    "index.html": "/expenseTracker/index.html",
+    "main.a529b589.css.map": "/expenseTracker/static/css/main.a529b589.css.map",
+    "main.03a52830.js.map": "/expenseTracker/static/js/main.03a52830.js.map",
+    "787.71d44114.chunk.js.map": "/expenseTracker/static/js/787.71d44114.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a529b589.css",
+    "static/js/main.03a52830.js"
+  ]
+}
