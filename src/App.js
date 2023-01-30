@@ -10,7 +10,7 @@ function App() {
       <div className="expenseManager">
         <Header />
         <Routes>
-          <Route path="/expenseTracker" element={<Home />} />
+          <Route path="/expenseTracker/" element={<Home />} />
           <Route path="/expenseTracker/addExpense" element={<AddExpense />} />
         </Routes>
       </div>
