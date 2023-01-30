@@ -61,12 +61,12 @@
     display: flex;
   }
   .cardTime {
-    font-size: 6px;
+    font-size: 9px;
   }
 }
 @media only screen and (max-width: 512px) {
   .cardTitle {
-    font-size: 12px;
+    font-size: 13px;
   }
   .cardAmt {
     font-size: 14px;

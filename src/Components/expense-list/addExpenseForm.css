@@ -37,6 +37,7 @@
 .formCategory{
     width: 90%;
     position: relative;
+    cursor: pointer;
 }
 
 .categoryDropDown{
@@ -59,12 +60,18 @@
     max-height: 33vh;
     overflow-y: scroll;
     z-index: 1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 .categoryitem{
     width: 95%;
     display: flex;
     justify-content: space-between;
     padding: 10px 8px;
+    cursor: pointer;
+}
+.categoryitem:hover{
+    background-color: #e4dee2;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
 .categoryitem img{
     height: 32px;
