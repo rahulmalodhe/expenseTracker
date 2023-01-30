@@ -29,10 +29,13 @@ const ExpenseList = () => {
           <img className="emptyImg" src={require('../../expense-images/empty.png')} alt="Please Add an Expense, Currently NO EXPENSES" />
           <label>List is empty</label>
           </div>}
-          <div className="displayTotal">
+          {totalAmt !== 0 &&
+            <div className="displayTotal">
             <p className="displayAmt">Total Expenses </p>
             <p>&#8377; {totalAmt}</p>
           </div>
+          }
+          
     </div>
   );
 };

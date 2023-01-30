@@ -26,7 +26,7 @@ const SucessModal = ({openModal, setOpenModal}) => {
             className="addimage"
             alt="Success!!"
           />
-          <Link to="/">
+          <Link to="/expenseTracker">
             <div className="takeHome">
               <i className="fi fi-rr-home"></i>
               Home

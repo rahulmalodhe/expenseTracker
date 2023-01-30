@@ -13,7 +13,7 @@ const TopBlock = () => {
   };
   return (
     <div className="topBlock">
-      {window.location.pathname === "/" ? (
+      {window.location.pathname === "/expenseTracker" ? (
         <div className="topFold">
           <div className="searchbar">
             <div>
@@ -28,7 +28,7 @@ const TopBlock = () => {
               />
             </div>
           </div>
-          <Link to="/addExpense" className="removeHyperLinkStyle">
+          <Link to="/expenseTracker/addExpense" className="removeHyperLinkStyle">
             <div className="addExpense">
               <div>
                 <i className="fi fi-rs-add"></i>
@@ -41,13 +41,13 @@ const TopBlock = () => {
         </div>
       ) : (
         <div className="expenseBlock">
-          <Link to="/" className="removeHyperLinkStyle">
+          <Link to="/expenseTracker" className="removeHyperLinkStyle">
             <div className="back">
               <i className="fi fi-rr-undo"></i>
               <span>Back</span>
             </div>
           </Link>
-          <Link to="/" className="removeHyperLinkStyle">
+          <Link to="/expenseTracker" className="removeHyperLinkStyle">
             <div className="cancel">
               <i className="fi fi-rr-cross-circle"></i>
               <span>Cancel</span>
