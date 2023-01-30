@@ -1,0 +1,130 @@
+.add-form {
+  border-radius: 12px;
+  background: #f8f3f6;
+  box-shadow: 20px 20px 60px #d3cfd1, -20px -20px 60px #ffffff;
+  padding:30px;
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height:58vh ;
+  position: relative;
+}
+
+.formItem,.formTitle,.formCategory{
+    margin:12px 0px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+.formItem label,.formTitle label{
+    background-color: lightgray;
+    padding: 4px 10px;
+    border-radius: 0px 4px 4px 0px;
+    min-width: 100px;
+    margin-right:10px ;
+    font-size: 13px;
+}
+.formItem input,.formTitle input{
+    border: none;
+    outline: none;
+    width: 70%;
+}
+.formItem{
+    display: flex;
+}
+.formCategory{
+    width: 90%;
+    position: relative;
+}
+
+.categoryDropDown{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 13px;
+} 
+.categoryContainer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    background-color: #ffffff;
+    left: 0;
+    top: 50px;
+    max-height: 33vh;
+    overflow-y: scroll;
+    z-index: 1;
+}
+.categoryitem{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+}
+.categoryitem img{
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.formatButton{
+    display: flex;
+    justify-content: flex-end; 
+}
+.formatButton div{
+    display: flex;
+    border: 1px solid black;
+    padding:2px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.formatButton div i{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+.formatButton div label{
+    cursor: pointer;
+}
+.categoryitem{font-size: 13px;}
+@media only screen and (max-width:1060px)  {
+    .categoryContainer{
+        max-height: 29vh;
+    }
+    .categoryitem{width: 94%;}
+
+}
+@media only screen and (max-width:830px)  {
+    .categoryContainer{
+        max-height: 29vh;
+    }
+    .categoryitem{width: 92%;}
+
+}
+
+@media only screen and (max-width:650px)  {
+    .categoryContainer{
+        max-height: 22vh;
+        font-size: 11px;
+    }
+    .categoryDropDown{
+        font-size: 11px;
+    }
+    .formItem input,.formTitle input{
+        width:50%;
+        font-size: 11px;
+    }
+    .formItem label,.formTitle label{
+        width:30%;
+        font-size: 11px;
+        min-width: 50px;
+    }
+    .categoryitem{font-size: 11px;width: 90%;}
+}

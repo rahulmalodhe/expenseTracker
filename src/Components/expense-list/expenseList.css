@@ -1,0 +1,38 @@
+.expenseCard{
+    margin: 15px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.emptyState{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.emptyImg{
+    height: 360px;
+}
+.displayTotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#80669d;
+    border-radius: 15px;
+    margin-top: 20px;
+    color:white;
+    font-weight: 500;
+    padding:0px 20px;
+}
+
+@media only screen and (max-width:1024px) {
+    .emptyImg{
+        height:320px
+    }
+}
+
+@media only screen and (max-width:512px) {
+    .emptyImg{
+        height:240px
+    }
+}

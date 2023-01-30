@@ -1,0 +1,45 @@
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gitHub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.8s;
+}
+.gitHub:hover{
+    background-color:cadetblue;
+    transition:0.3s ease-in;
+    color: #FFF;
+}
+.socialTxt{
+    font-size: 8px;
+    margin-left: 10px;
+}
+.socialTxt a{
+    text-decoration: none;
+    color: black;
+}
+.headContainer{
+    margin-top:-25px
+}
+
+@media only screen and (max-width:1024px) {
+    .headContainer{
+        width: 90%;
+    }
+    
+}
+@media only screen and (max-width:800px) {
+    .headContainer{
+        width: 95%;
+    }
+    
+}

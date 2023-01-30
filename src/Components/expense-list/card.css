@@ -1,0 +1,74 @@
+.card {
+  background-color: white;
+  padding: 12px 20px;
+  margin: 3px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-left: -10px;
+}
+.infoContainer{
+    display: flex;
+    align-items: center;
+}
+.cardImg {
+  height: 40px;
+}
+.cardRight {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.cardInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+}
+.cardData{
+    margin-left:25px;
+}
+.cardTitle {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom:-5px
+}
+.cardTime {
+  color: grey;
+  font-size: 10px;
+}
+.cardAmt {
+  font-size: 12px;
+  font-weight: 500;
+}
+.deleteCard {
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardTitle {
+    font-size: 14px;
+  }
+  .cardAmt {
+    font-size: 16px;
+  }
+  .cardImg {
+    height: 32px;
+    display: flex;
+  }
+  .cardTime {
+    font-size: 6px;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .cardTitle {
+    font-size: 12px;
+  }
+  .cardAmt {
+    font-size: 14px;
+  }
+}

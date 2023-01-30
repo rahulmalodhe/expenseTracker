@@ -1,0 +1,66 @@
+.topBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topFold{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchIcon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.inputField{
+    border:none;
+    background: none !important;
+    outline: none;
+    width: 85%;
+}
+.searchbar{
+    background-color: white;
+    padding:7px 15px;
+    width:50%;
+    border-radius:12px;
+    display: flex;
+    align-items: center;
+}
+.searchbar i{
+    vertical-align: middle;
+}
+.addExpense{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 7px 10px ;
+    font-size: 12px;
+}
+.addExpense i{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.expenseBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+}
+.back, .cancel{
+    cursor: pointer;
+}
+.back i, .cancel i{
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.back span, .cancel span{
+    vertical-align: inherit;
+}
+.removeHyperLinkStyle{
+    text-decoration: none;
+    color: inherit;
+}
